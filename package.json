@@ -1,0 +1,20 @@
+{
+  "name": "Julius-NodeJS-Retail-App",
+  "version": "0.0.1",
+  "description": "MongoDB powered Retail app",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test.prac1.js",
+    "test-kitten": "mocha -R nyan test.prac1.js",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-mocha": "2.0.1",
+    "mocha": "2.2.4"
+  },
+  "dependencies": {
+    "underscore": "1.5.2",
+    "mongodb": "2.0.35"
+  }
+}
