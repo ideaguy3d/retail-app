@@ -17,11 +17,11 @@ describe('my feature', function(){
 });
 
 describe('my other feature', function(){
-    it('is an async call', function(done){
+    it('is an async call', function(done) {
         setTimeout(function(){
             done();
         }, 25);
-    })
+    });
 });
 
 //\\

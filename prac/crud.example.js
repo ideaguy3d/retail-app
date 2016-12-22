@@ -64,8 +64,8 @@ mongodb.MongoClient.connect(uri, function(error, db){
 
     db.collection('movies').insert(doc, function(error, docs){
         // check for error.
-
         var and_query = {year: 1975, director: 'George Lucas'};
+
         //query the document I just inserted.
         db.collection('movies').find(and_query).toArray(function(error, movies){
             //if error do something
